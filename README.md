@@ -1,4 +1,4 @@
-This project represents the resolution of task 2 assined by Trigavo.
+This project represents the resolution of task 2 assined by Trivago.
 
 Technolog used:
 - Selenium web driver 
