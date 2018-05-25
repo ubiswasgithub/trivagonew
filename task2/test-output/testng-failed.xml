@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Trivago Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Trivago Task2 Test(failed)">
+    <classes>
+      <class name="trigavo.task2.ContactTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="closeAllBrowserAfterTest"/>
+          <include name="verifyContactTest"/>
+        </methods>
+      </class> <!-- trigavo.task2.ContactTest -->
+    </classes>
+  </test> <!-- Trivago Task2 Test(failed) -->
+</suite> <!-- Failed suite [Trivago Test Suite] -->

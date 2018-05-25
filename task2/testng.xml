@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trivago Test Suite">
+<parameter name="browser" value="chrome"></parameter>
+<listeners>
+		<!-- <listener class-name="mt.siteportal.utils.tools.ExtentReporterNG" /> 
+		<listener class-name="ru.yandex.qatools.allure.testng.AllureTestListener" />-->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+</listeners>
+ <test name="Trivago Task2 Test">
+    <classes>
+   	 <class name="trigavo.task2.LocationSearchTest"/>
+       <class name="trigavo.task2.SubscriptionTest"/>
+      <class name="trigavo.task2.ContactTest"/>
+      <class name="trigavo.task2.DestinationTest"/>
+      <class name="trigavo.task2.CountryTest"/>
+      <class name="trigavo.task2.Link404CheckTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
